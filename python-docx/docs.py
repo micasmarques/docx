@@ -42,6 +42,7 @@ def add_section_with_columns(doc, num_columns, text):
     set_section_columns(section, num_columns)
     doc.add_paragraph(text)
 
+
 def add_section_with_columns_and_margin(doc, num_columns, text):
     doc.add_section()
     section = doc.sections[-1]
